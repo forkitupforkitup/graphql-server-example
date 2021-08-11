@@ -8,7 +8,7 @@ const { makeExecutableSchema } = require('@graphql-tools/schema');
 const { typeDefs } = require('./schema');
 
 (async () => {
-  const PORT = 6969;
+  const PORT = 4004;
   const pubsub = new PubSub();
   const app = express();
   const httpServer = createServer(app);
